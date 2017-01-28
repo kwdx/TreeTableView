@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653946E91DC71FB2009AFC7E /* TreeObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 653946E81DC71FB2009AFC7E /* TreeObj.m */; };
+		653946EC1DC7218A009AFC7E /* WDTreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 653946EB1DC7218A009AFC7E /* WDTreeCell.m */; };
+		655ADA061DC3987D00827BA4 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 655AD9F71DC3987D00827BA4 /* City.m */; };
+		655ADA071DC3987D00827BA4 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 655AD9F91DC3987D00827BA4 /* Country.m */; };
+		655ADA081DC3987D00827BA4 /* Province.m in Sources */ = {isa = PBXBuildFile; fileRef = 655AD9FB1DC3987D00827BA4 /* Province.m */; };
+		655ADA091DC3987D00827BA4 /* CityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 655AD9FE1DC3987D00827BA4 /* CityCell.m */; };
+		655ADA0A1DC3987D00827BA4 /* CityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655AD9FF1DC3987D00827BA4 /* CityCell.xib */; };
+		655ADA0B1DC3987D00827BA4 /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 655ADA011DC3987D00827BA4 /* CountryCell.m */; };
+		655ADA0C1DC3987D00827BA4 /* CountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655ADA021DC3987D00827BA4 /* CountryCell.xib */; };
+		655ADA0D1DC3987D00827BA4 /* ProvinceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 655ADA041DC3987D00827BA4 /* ProvinceCell.m */; };
+		655ADA0E1DC3987D00827BA4 /* ProvinceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655ADA051DC3987D00827BA4 /* ProvinceCell.xib */; };
+		65A8E01A1DC38D5F00BA6EE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8E0191DC38D5F00BA6EE8 /* main.m */; };
+		65A8E01D1DC38D5F00BA6EE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8E01C1DC38D5F00BA6EE8 /* AppDelegate.m */; };
+		65A8E0201DC38D5F00BA6EE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8E01F1DC38D5F00BA6EE8 /* ViewController.m */; };
+		65A8E0231DC38D5F00BA6EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A8E0211DC38D5F00BA6EE8 /* Main.storyboard */; };
+		65A8E0251DC38D5F00BA6EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A8E0241DC38D5F00BA6EE8 /* Assets.xcassets */; };
+		65A8E0281DC38D5F00BA6EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A8E0261DC38D5F00BA6EE8 /* LaunchScreen.storyboard */; };
+		65A8E0321DC38D7D00BA6EE8 /* WDTreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8E0311DC38D7D00BA6EE8 /* WDTreeTableView.m */; };
+		65D287E61DC39BB6008BDBEE /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D287E51DC39BB6008BDBEE /* TreeNode.m */; };
+		65D287E91DC39CAF008BDBEE /* TreeNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D287E81DC39CAF008BDBEE /* TreeNodeController.m */; };
+		65D287EC1DC3A2EC008BDBEE /* WDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D287EB1DC3A2EC008BDBEE /* WDTableView.m */; };
+		65D287F91DC3B08A008BDBEE /* WDTreeNodeDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D287F81DC3B08A008BDBEE /* WDTreeNodeDataController.m */; };
+		65FE33A81DC5E089005F92D0 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65FE33A71DC5E089005F92D0 /* city.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		653946E71DC71FB2009AFC7E /* TreeObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeObj.h; sourceTree = "<group>"; };
+		653946E81DC71FB2009AFC7E /* TreeObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeObj.m; sourceTree = "<group>"; };
+		653946EA1DC7218A009AFC7E /* WDTreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTreeCell.h; sourceTree = "<group>"; };
+		653946EB1DC7218A009AFC7E /* WDTreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTreeCell.m; sourceTree = "<group>"; };
+		655AD9F61DC3987D00827BA4 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		655AD9F71DC3987D00827BA4 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		655AD9F81DC3987D00827BA4 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		655AD9F91DC3987D00827BA4 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		655AD9FA1DC3987D00827BA4 /* Province.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Province.h; sourceTree = "<group>"; };
+		655AD9FB1DC3987D00827BA4 /* Province.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Province.m; sourceTree = "<group>"; };
+		655AD9FD1DC3987D00827BA4 /* CityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityCell.h; sourceTree = "<group>"; };
+		655AD9FE1DC3987D00827BA4 /* CityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityCell.m; sourceTree = "<group>"; };
+		655AD9FF1DC3987D00827BA4 /* CityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityCell.xib; sourceTree = "<group>"; };
+		655ADA001DC3987D00827BA4 /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCell.h; sourceTree = "<group>"; };
+		655ADA011DC3987D00827BA4 /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCell.m; sourceTree = "<group>"; };
+		655ADA021DC3987D00827BA4 /* CountryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryCell.xib; sourceTree = "<group>"; };
+		655ADA031DC3987D00827BA4 /* ProvinceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceCell.h; sourceTree = "<group>"; };
+		655ADA041DC3987D00827BA4 /* ProvinceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceCell.m; sourceTree = "<group>"; };
+		655ADA051DC3987D00827BA4 /* ProvinceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProvinceCell.xib; sourceTree = "<group>"; };
+		65A8E0151DC38D5F00BA6EE8 /* WDTreeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDTreeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A8E0191DC38D5F00BA6EE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65A8E01B1DC38D5F00BA6EE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65A8E01C1DC38D5F00BA6EE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65A8E01E1DC38D5F00BA6EE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65A8E01F1DC38D5F00BA6EE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65A8E0221DC38D5F00BA6EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65A8E0241DC38D5F00BA6EE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65A8E0271DC38D5F00BA6EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65A8E0291DC38D5F00BA6EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A8E0301DC38D7D00BA6EE8 /* WDTreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTreeTableView.h; sourceTree = "<group>"; };
+		65A8E0311DC38D7D00BA6EE8 /* WDTreeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTreeTableView.m; sourceTree = "<group>"; };
+		65D287E41DC39BB6008BDBEE /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		65D287E51DC39BB6008BDBEE /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		65D287E71DC39CAF008BDBEE /* TreeNodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNodeController.h; sourceTree = "<group>"; };
+		65D287E81DC39CAF008BDBEE /* TreeNodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNodeController.m; sourceTree = "<group>"; };
+		65D287EA1DC3A2EC008BDBEE /* WDTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTableView.h; sourceTree = "<group>"; };
+		65D287EB1DC3A2EC008BDBEE /* WDTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTableView.m; sourceTree = "<group>"; };
+		65D287F71DC3B08A008BDBEE /* WDTreeNodeDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTreeNodeDataController.h; sourceTree = "<group>"; };
+		65D287F81DC3B08A008BDBEE /* WDTreeNodeDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTreeNodeDataController.m; sourceTree = "<group>"; };
+		65FE33A71DC5E089005F92D0 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A8E0121DC38D5F00BA6EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655AD9F51DC3987D00827BA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				655AD9F61DC3987D00827BA4 /* City.h */,
+				655AD9F71DC3987D00827BA4 /* City.m */,
+				655AD9F81DC3987D00827BA4 /* Country.h */,
+				655AD9F91DC3987D00827BA4 /* Country.m */,
+				655AD9FA1DC3987D00827BA4 /* Province.h */,
+				655AD9FB1DC3987D00827BA4 /* Province.m */,
+				653946E71DC71FB2009AFC7E /* TreeObj.h */,
+				653946E81DC71FB2009AFC7E /* TreeObj.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		655AD9FC1DC3987D00827BA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				655AD9FD1DC3987D00827BA4 /* CityCell.h */,
+				655AD9FE1DC3987D00827BA4 /* CityCell.m */,
+				655AD9FF1DC3987D00827BA4 /* CityCell.xib */,
+				655ADA001DC3987D00827BA4 /* CountryCell.h */,
+				655ADA011DC3987D00827BA4 /* CountryCell.m */,
+				655ADA021DC3987D00827BA4 /* CountryCell.xib */,
+				655ADA031DC3987D00827BA4 /* ProvinceCell.h */,
+				655ADA041DC3987D00827BA4 /* ProvinceCell.m */,
+				655ADA051DC3987D00827BA4 /* ProvinceCell.xib */,
+				653946EA1DC7218A009AFC7E /* WDTreeCell.h */,
+				653946EB1DC7218A009AFC7E /* WDTreeCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		655ADA0F1DC398A300827BA4 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				65D287E41DC39BB6008BDBEE /* TreeNode.h */,
+				65D287E51DC39BB6008BDBEE /* TreeNode.m */,
+				65D287E71DC39CAF008BDBEE /* TreeNodeController.h */,
+				65D287E81DC39CAF008BDBEE /* TreeNodeController.m */,
+				65D287F71DC3B08A008BDBEE /* WDTreeNodeDataController.h */,
+				65D287F81DC3B08A008BDBEE /* WDTreeNodeDataController.m */,
+				65D287EA1DC3A2EC008BDBEE /* WDTableView.h */,
+				65D287EB1DC3A2EC008BDBEE /* WDTableView.m */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		65A8E00C1DC38D5F00BA6EE8 = {
+			isa = PBXGroup;
+			children = (
+				65A8E0171DC38D5F00BA6EE8 /* WDTreeTableView */,
+				65A8E0161DC38D5F00BA6EE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65A8E0161DC38D5F00BA6EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A8E0151DC38D5F00BA6EE8 /* WDTreeTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A8E0171DC38D5F00BA6EE8 /* WDTreeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				65A8E02F1DC38D6E00BA6EE8 /* WDTreeTableView */,
+				65A8E01B1DC38D5F00BA6EE8 /* AppDelegate.h */,
+				65A8E01C1DC38D5F00BA6EE8 /* AppDelegate.m */,
+				65A8E01E1DC38D5F00BA6EE8 /* ViewController.h */,
+				65A8E01F1DC38D5F00BA6EE8 /* ViewController.m */,
+				655AD9F51DC3987D00827BA4 /* Model */,
+				655AD9FC1DC3987D00827BA4 /* View */,
+				65A8E0211DC38D5F00BA6EE8 /* Main.storyboard */,
+				65A8E0241DC38D5F00BA6EE8 /* Assets.xcassets */,
+				65A8E0261DC38D5F00BA6EE8 /* LaunchScreen.storyboard */,
+				65FE33A71DC5E089005F92D0 /* city.plist */,
+				65A8E0291DC38D5F00BA6EE8 /* Info.plist */,
+				65A8E0181DC38D5F00BA6EE8 /* Supporting Files */,
+			);
+			path = WDTreeTableView;
+			sourceTree = "<group>";
+		};
+		65A8E0181DC38D5F00BA6EE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65A8E0191DC38D5F00BA6EE8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65A8E02F1DC38D6E00BA6EE8 /* WDTreeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				65A8E0301DC38D7D00BA6EE8 /* WDTreeTableView.h */,
+				65A8E0311DC38D7D00BA6EE8 /* WDTreeTableView.m */,
+				655ADA0F1DC398A300827BA4 /* private */,
+			);
+			path = WDTreeTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A8E0141DC38D5F00BA6EE8 /* WDTreeTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A8E02C1DC38D5F00BA6EE8 /* Build configuration list for PBXNativeTarget "WDTreeTableView" */;
+			buildPhases = (
+				65A8E0111DC38D5F00BA6EE8 /* Sources */,
+				65A8E0121DC38D5F00BA6EE8 /* Frameworks */,
+				65A8E0131DC38D5F00BA6EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDTreeTableView;
+			productName = WDTreeTableView;
+			productReference = 65A8E0151DC38D5F00BA6EE8 /* WDTreeTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A8E00D1DC38D5F00BA6EE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = CorJi;
+				TargetAttributes = {
+					65A8E0141DC38D5F00BA6EE8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65A8E0101DC38D5F00BA6EE8 /* Build configuration list for PBXProject "WDTreeTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65A8E00C1DC38D5F00BA6EE8;
+			productRefGroup = 65A8E0161DC38D5F00BA6EE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A8E0141DC38D5F00BA6EE8 /* WDTreeTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A8E0131DC38D5F00BA6EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655ADA0C1DC3987D00827BA4 /* CountryCell.xib in Resources */,
+				65A8E0281DC38D5F00BA6EE8 /* LaunchScreen.storyboard in Resources */,
+				65FE33A81DC5E089005F92D0 /* city.plist in Resources */,
+				65A8E0251DC38D5F00BA6EE8 /* Assets.xcassets in Resources */,
+				655ADA0E1DC3987D00827BA4 /* ProvinceCell.xib in Resources */,
+				655ADA0A1DC3987D00827BA4 /* CityCell.xib in Resources */,
+				65A8E0231DC38D5F00BA6EE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A8E0111DC38D5F00BA6EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653946E91DC71FB2009AFC7E /* TreeObj.m in Sources */,
+				655ADA061DC3987D00827BA4 /* City.m in Sources */,
+				653946EC1DC7218A009AFC7E /* WDTreeCell.m in Sources */,
+				65A8E0201DC38D5F00BA6EE8 /* ViewController.m in Sources */,
+				65A8E01D1DC38D5F00BA6EE8 /* AppDelegate.m in Sources */,
+				65A8E0321DC38D7D00BA6EE8 /* WDTreeTableView.m in Sources */,
+				655ADA0B1DC3987D00827BA4 /* CountryCell.m in Sources */,
+				65D287E91DC39CAF008BDBEE /* TreeNodeController.m in Sources */,
+				65D287EC1DC3A2EC008BDBEE /* WDTableView.m in Sources */,
+				65D287E61DC39BB6008BDBEE /* TreeNode.m in Sources */,
+				655ADA081DC3987D00827BA4 /* Province.m in Sources */,
+				655ADA071DC3987D00827BA4 /* Country.m in Sources */,
+				655ADA091DC3987D00827BA4 /* CityCell.m in Sources */,
+				65A8E01A1DC38D5F00BA6EE8 /* main.m in Sources */,
+				655ADA0D1DC3987D00827BA4 /* ProvinceCell.m in Sources */,
+				65D287F91DC3B08A008BDBEE /* WDTreeNodeDataController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65A8E0211DC38D5F00BA6EE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A8E0221DC38D5F00BA6EE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65A8E0261DC38D5F00BA6EE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A8E0271DC38D5F00BA6EE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65A8E02A1DC38D5F00BA6EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65A8E02B1DC38D5F00BA6EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A8E02D1DC38D5F00BA6EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDTreeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CorJi.WDTreeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65A8E02E1DC38D5F00BA6EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDTreeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CorJi.WDTreeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A8E0101DC38D5F00BA6EE8 /* Build configuration list for PBXProject "WDTreeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A8E02A1DC38D5F00BA6EE8 /* Debug */,
+				65A8E02B1DC38D5F00BA6EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A8E02C1DC38D5F00BA6EE8 /* Build configuration list for PBXNativeTarget "WDTreeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A8E02D1DC38D5F00BA6EE8 /* Debug */,
+				65A8E02E1DC38D5F00BA6EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A8E00D1DC38D5F00BA6EE8 /* Project object */;
+}
